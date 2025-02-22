@@ -21,7 +21,7 @@ const App = () => {
         onChange={handleNameChange}
       />
       {/* Display the greeting only if `name` is not empty */}
-      {name && <p>Hello n!</p>}
+      {name && <p>Hello na!</p>}
     </div>
   );
 };
