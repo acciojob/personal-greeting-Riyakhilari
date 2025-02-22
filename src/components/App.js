@@ -22,6 +22,7 @@ const App = () => {
       />
       {/* Display the greeting only if `name` is not empty */}
       {name && <p>Hello na!</p>}
+        {name && <p>Hello n!</p>}
     </div>
   );
 };
